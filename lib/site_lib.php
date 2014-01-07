@@ -1,6 +1,6 @@
 <?
 
-date_default_timezone_set('Europe/Bratislava');
+date_default_timezone_set('Asia/Kolkata');
 
 include_once("lib/risk_lib.php");
 include_once("lib/risk_tp_join_lib.php");
@@ -277,7 +277,7 @@ function download_export( $file_name ) {
 	unlink( $file );
 	
 	if (connection_aborted()) {
-		unlink($f);
+		unlink($file);
 	}
 
 	exit;
@@ -310,7 +310,7 @@ function download_attachment( $file_name ) {
 	#unlink( $file );
 	
 	if (connection_aborted()) {
-		unlink($f);
+		unlink($file);
 	}
 
 	exit;
@@ -318,7 +318,7 @@ function download_attachment( $file_name ) {
 
 function create_Calendar($month,$year) {
 
-date_default_timezone_set('America/Los_Angeles');
+date_default_timezone_set('Asia/Kolkata');
 
 		$this_year = give_me_this_year();
 		
