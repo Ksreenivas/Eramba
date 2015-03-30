@@ -18,16 +18,6 @@
 	$section = isset($_GET["section"])?$_GET["section"]:null;
 	$subsection = isset($_GET["subsection"])?$_GET["subsection"]:null;
 	$action = isset($_GET["action"])?$_GET["action"]:null;
-	$action = isset($_GET["action"])?$_GET["action"]:null;
-	
-	$base_url_edit = build_base_url($section,"asset_classification_edit");
-	$base_url_list = bui
-	ld_base_url($section,"asset_classification_list");
-	$show_id = isset($_GET["show_id"]) ? $_GET["show_id"] : null;
-	$sort = isset($_GET["sort"])?$_GET["sort"]:null;
-	$section = isset($_GET["section"])?$_GET["section"]:null;
-	$subsection = isset($_GET["subsection"])?$_GET["subsection"]:null;
-	$action = isset($_GET["action"])?$_GET["action"]:null;
 	
 	$base_url_edit = build_base_url($section,"asset_classification_edit");
 	$base_url_list = build_base_url($section,"asset_classification_list");
