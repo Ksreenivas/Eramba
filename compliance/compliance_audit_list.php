@@ -31,19 +31,6 @@
 	# compliance finding stuf
 	$compliance_finding_id = isset($_GET["compliance_finding_id"])?$_GET["compliance_finding_id"]:null;
 	$compliance_finding_title = isset($_GET["compliance_finding_title"])?$_GET["compliance_finding_title"]:null;
-	$compliance_finding_description = isset($_GET["co = build_base_url("attachments","attachments_edit");
-	$base_url_list_attachments = build_base_url("attachments","attachments_list");
-
-	# local variables - YOU MUST ADJUST THIS! 
-	$compliance_audit_id = isset($_GET["compliance_audit_id"])?$_GET["compliance_audit_id"]:null;
-	$compliance_audit_title = isset($_GET["compliance_audit_title"])?$_GET["compliance_audit_title"]:null;
-	$compliance_audit_date = isset($_GET["compliance_audit_date"])?$_GET["compliance_audit_date"]:null;
-	$compliance_audit_package_id = isset($_GET["compliance_audit_package_id"])?$_GET["compliance_audit_package_id"]:null;
-	$compliance_audit_disabled = isset($_GET["compliance_audit_disabled"])?$_GET["compliance_audit_disabled"]:null;
-	
-	# compliance finding stuf
-	$compliance_finding_id = isset($_GET["compliance_finding_id"])?$_GET["compliance_finding_id"]:null;
-	$compliance_finding_title = isset($_GET["compliance_finding_title"])?$_GET["compliance_finding_title"]:null;
 	$compliance_finding_description = isset($_GET["compliance_finding_description"])?$_GET["compliance_finding_description"]:null;
 	$compliance_finding_description = isset($_GET["compliance_finding_description"])?$_GET["compliance_finding_description"]:null;
 	$compliance_finding_description = isset($_GET["compliance_finding_description"])?$_GET["compliance_finding_description"]:null;
