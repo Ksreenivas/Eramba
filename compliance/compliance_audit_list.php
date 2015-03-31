@@ -25,26 +25,6 @@
 	$compliance_audit_id = isset($_GET["compliance_audit_id"])?$_GET["compliance_audit_id"]:null;
 	$compliance_audit_title = isset($_GET["compliance_audit_title"])?$_GET["compliance_audit_title"]:null;
 	$compliance_audit_date = isset($_GET["compliance_audit_date"])?$_GET["compliance_audit_date"]:null;
-	$compliance_audit_package_id = iables - YOU SHOULDNT NEED TO CHANGE THIS
-	$show_id = isset($_GET["show_id"]) ? $_GET["show_id"] : null;
-	$sort = isset($_GET["sort"])?$_GET["sort"]:null;
-	$section = $_GET["section"];
-	$subsection = $_GET["subsection"];
-	$action = isset($_GET["action"])?$_GET["action"]:null;
-	
-	$base_url_list = build_base_url($section,"compliance_audit_list");
-	$base_url_edit = build_base_url($section,"compliance_audit_edit");
-	
-	$base_url_edit_finding = build_base_url($section,"compliance_finding_edit");
-	$base_url_list_finding = build_base_url($section,"compliance_finding_list");
-
-	$base_url_edit_attachments = build_base_url("attachments","attachments_edit");
-	$base_url_list_attachments = build_base_url("attachments","attachments_list");
-
-	# local variables - YOU MUST ADJUST THIS! 
-	$compliance_audit_id = isset($_GET["compliance_audit_id"])?$_GET["compliance_audit_id"]:null;
-	$compliance_audit_title = isset($_GET["compliance_audit_title"])?$_GET["compliance_audit_title"]:null;
-	$compliance_audit_date = isset($_GET["compliance_audit_date"])?$_GET["compliance_audit_date"]:null;
 	$compliance_audit_package_id = isset($_GET["compliance_audit_package_id"])?$_GET["compliance_audit_package_id"]:null;
 	$compliance_audit_disabled = isset($_GET["compliance_audit_disabled"])?$_GET["compliance_audit_disabled"]:null;
 	
