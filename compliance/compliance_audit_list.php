@@ -32,6 +32,8 @@
 	$compliance_finding_id = isset($_GET["compliance_finding_id"])?$_GET["compliance_finding_id"]:null;
 	$compliance_finding_title = isset($_GET["compliance_finding_title"])?$_GET["compliance_finding_title"]:null;
 	$compliance_finding_description = isset($_GET["compliance_finding_description"])?$_GET["compliance_finding_description"]:null;
+	$compliance_finding_description = isset($_GET["compliance_finding_description"])?$_GET["compliance_finding_description"]:null;
+	$compliance_finding_description = isset($_GET["compliance_finding_description"])?$_GET["compliance_finding_description"]:null;
 	$compliance_finding_status = isset($_GET["compliance_finding_status"])?$_GET["compliance_finding_status"]:null;
 	$compliance_finding_deadline = isset($_GET["compliance_finding_deadline"])?$_GET["compliance_finding_deadline"]:null;
 	$compliance_finding_disabled = isset($_GET["compliance_finding_disabled"])?$_GET["compliance_finding_disabled"]:null;
