@@ -22,10 +22,6 @@
 /* @end */
 
 /* @group Single Chosen */
-
-.chzn-container-single .chzn-default {
-  color: #999;
-}
 .chzn-container-single .chzn-single {
   background-color: #ffffff;
   -webkit-border-radius: 5px;
@@ -45,6 +41,9 @@
   padding: 0 0 0 8px;
   color: #444444;
   text-decoration: none;
+}
+.chzn-container-single .chzn-default {
+  color: #999;
 }
 .chzn-container-single .chzn-single span {
   margin-right: 26px;
