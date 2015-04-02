@@ -34,22 +34,6 @@
 	$compliance_package_name = isset($_GET["compliance_package_name"])?$_GET["compliance_package_name"]:null;
 	$compliance_package_description = isset($_GET["compliance_package_description"])?$_GET["compliance_package_description"]:null;
 	$compliance_package_type_id = isset($_GET["compliance_package_type_id"])?$_GET["compliance_package_type_id"]:null;
-	$compliance_package_disabled = isset($_GET["co
-	}
-	
-	$base_url_upload = build_base_url($section,"compliance_package_upload");
-	$base_url_list = build_base_url($section,"compliance_package_list");
-	$base_url_edit = build_base_url($section,"compliance_package_edit");
-	$base_url_item_edit = build_base_url($section,"compliance_package_item_edit");
-	$compliance_package_url = build_base_url("organization","tp_list");
-	
-	# local variables - YOU MUST ADJUST THIS! 
-	$compliance_package_id = isset($_GET["compliance_package_id"])?$_GET["compliance_package_id"]:null;
-	$compliance_package_tp_id = isset($_GET["compliance_package_tp_id"])?$_GET["compliance_package_tp_id"]:null;
-	$compliance_package_original_id = isset($_GET["compliance_package_original_id"])?$_GET["compliance_package_original_id"]:null;
-	$compliance_package_name = isset($_GET["compliance_package_name"])?$_GET["compliance_package_name"]:null;
-	$compliance_package_description = isset($_GET["compliance_package_description"])?$_GET["compliance_package_description"]:null;
-	$compliance_package_type_id = isset($_GET["compliance_package_type_id"])?$_GET["compliance_package_type_id"]:null;
 	$compliance_package_disabled = isset($_GET["compliance_package_disabled"])?$_GET["compliance_package_disabled"]:null;
 	
 	$compliance_package_item_id = isset($_GET["compliance_package_item_id"])?$_GET["compliance_package_item_id"]:null;
