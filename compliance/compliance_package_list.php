@@ -45,6 +45,12 @@
 	$compliance_package_name = isset($_GET["compliance_package_name"])?$_GET["compliance_package_name"]:null;
 	$compliance_package_description = isset($_GET["compliance_package_description"])?$_GET["compliance_package_description"]:null;
 	$compliance_package_type_id = isset($_GET["compliance_package_type_id"])?$_GET["compliance_package_type_id"]:null;
+	$compliance_package_disabpliance_package_id = isset($_GET["compliance_package_id"])?$_GET["compliance_package_id"]:null;
+	$compliance_package_tp_id = isset($_GET["compliance_package_tp_id"])?$_GET["compliance_package_tp_id"]:null;
+	$compliance_package_original_id = isset($_GET["compliance_package_original_id"])?$_GET["compliance_package_original_id"]:null;
+	$compliance_package_name = isset($_GET["compliance_package_name"])?$_GET["compliance_package_name"]:null;
+	$compliance_package_description = isset($_GET["compliance_package_description"])?$_GET["compliance_package_description"]:null;
+	$compliance_package_type_id = isset($_GET["compliance_package_type_id"])?$_GET["compliance_package_type_id"]:null;
 	$compliance_package_disabled = isset($_GET["compliance_package_disabled"])?$_GET["compliance_package_disabled"]:null;
 	
 	$compliance_package_item_id = isset($_GET["compliance_package_item_id"])?$_GET["compliance_package_item_id"]:null;
